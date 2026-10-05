@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/chillerlan-php-qrcode",
+    "description": "Tyhp type definitions for chillerlan/php-qrcode 5.0.5.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.0.5",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/chillerlan-php-qrcode-impl": "~5.0.5.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/chillerlan-php-qrcode-impl"
+        }
+    }
+}
